@@ -9,9 +9,9 @@ router.get(
     userControllers.create
 );
 
-// router.post(
-//     '/create',
-//     userControllers.doCreate
-// );
+router.post(
+    '/create',
+    userControllers.doCreate
+);
 
 module.exports = router;
